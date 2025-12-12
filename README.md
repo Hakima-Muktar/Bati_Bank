@@ -7,19 +7,7 @@ Banks traditionally build these models by analyzing past borrowers’ data and l
 Mandate a standardized project structure from the beginning. This is a core engineering discipline.
 
 credit-risk-model/
-├── .github/workflows/ci.yml        # CI/CD pipeline (tests, linting, build)
-├── .gitignore                      # Ignore data, venv, model files, logs
-│
-├── data/                           # (Ignored by git)
-│   ├── raw/                        # Raw input datasets
-│   └── processed/                  # Cleaned & feature-engineered datasets
-│
-├── notebooks/
-│   └── eda.ipynb                   # Exploratory Data Analysis notebook
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_processing.py   
+├![alt text](<structure flow.PNG>)  
 
 # Task 1 - Understanding Credit Risk 
 # Credit Risk Analysis and Modeling
