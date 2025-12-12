@@ -1,2 +1,2 @@
 # Bati_Bank 
-connected
+how
