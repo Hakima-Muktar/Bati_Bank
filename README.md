@@ -5,18 +5,23 @@ is the process of using statistical and machine learning techniques to estimate 
 Banks traditionally build these models by analyzing past borrowers’ data and loan performance.
 # Project Structure
 Mandate a standardized project structure from the beginning. This is a core engineering discipline.
+
 credit-risk-model/
-├── .github/workflows/ci.yml   # For CI/CD
-├── data/                       # add this folder to .gitignore
-│   ├── raw/                   # Raw data goes here 
-│   └── processed/             # Processed data for training
+├── .github/workflows/ci.yml        # CI/CD pipeline (tests, linting, build)
+├── .gitignore                      # Ignore data, venv, model files, logs
+│
+├── data/                           # (Ignored by git)
+│   ├── raw/                        # Raw input datasets
+│   └── processed/                  # Cleaned & feature-engineered datasets
+│
 ├── notebooks/
-│   └── eda.ipynb          # Exploratory, one-off analysis
+│   └── eda.ipynb                   # Exploratory Data Analysis notebook
+│
 ├── src/
 │   ├── __init__.py
 │   ├── data_processing.py   
-# Task 1 - Understanding Credit Risk 
 
+# Task 1 - Understanding Credit Risk 
 # Credit Risk Analysis and Modeling
  # Credit Risk
  Credit risk is the possibility that a borrower will fail to repay a loan, causing a financial loss to the lender. It affects loan decisions, interest rates, and the overall stability and profitability of financial institutions.
