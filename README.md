@@ -6,8 +6,6 @@ Banks traditionally build these models by analyzing past borrowers’ data and l
 # Project Structure
 Mandate a standardized project structure from the beginning. This is a core engineering discipline. 
 
-├ ![alt text](<structure flow.PNG>)  
-
 # Task 1 - Understanding Credit Risk 
 # Credit Risk Analysis and Modeling
  # Credit Risk
