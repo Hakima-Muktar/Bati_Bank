@@ -4,10 +4,9 @@ Bati Bank, a major financial service provider with over 10 years of experience, 
 is the process of using statistical and machine learning techniques to estimate how likely a customer is to default (fail to repay). 
 Banks traditionally build these models by analyzing past borrowers’ data and loan performance.
 # Project Structure
-Mandate a standardized project structure from the beginning. This is a core engineering discipline.
+Mandate a standardized project structure from the beginning. This is a core engineering discipline. 
 
-credit-risk-model/
-├![alt text](<structure flow.PNG>)  
+├ ![alt text](<structure flow.PNG>)  
 
 # Task 1 - Understanding Credit Risk 
 # Credit Risk Analysis and Modeling
