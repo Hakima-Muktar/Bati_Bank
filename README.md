@@ -20,7 +20,6 @@ Criteria Logistic Regression (WoE) Gradient Boosting (GBM) Interpretability High
 # 📁 Project Structure
 Mandate a standardized project structure from the beginning.
 ```
-text
 Bati_Bank/
 ├── .github/workflows/ci.yml     # CI/CD Pipeline
 ├── data/
