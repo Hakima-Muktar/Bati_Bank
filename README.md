@@ -3,10 +3,26 @@ Bati Bank, a major financial service provider with over 10 years of experience, 
 ## Credit scoring 
 is the process of using statistical and machine learning techniques to estimate how likely a customer is to default (fail to repay). 
 Banks traditionally build these models by analyzing past borrowers’ data and loan performance.
-# Project Structure
+## 📁 Project Structure
 Mandate a standardized project structure from the beginning.
-``` 
-py -m venv venv 
+```text
+week3-practice/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── eda.ipynb
+│   └── modeling.ipynb
+├── src/
+│   ├── data_cleaning.py
+│   ├── feature_engineering.py
+│   └── train_model.py
+├── reports/
+│   └── analysis_report.pdf
+├── requirements.txt
+├── .gitignore
+└── README.md
+
 
 # Credit Risk Analysis and Modeling
  ## Credit Risk
