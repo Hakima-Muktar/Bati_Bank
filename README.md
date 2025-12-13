@@ -7,6 +7,7 @@ Banks traditionally build these models by analyzing past borrowers’ data and l
 Mandate a standardized project structure from the beginning.
 ```text
 Bat_Bank/
+├── .github/workflows/ci.yml
 ├── data/
 │   ├── raw/
 │   └── processed/
