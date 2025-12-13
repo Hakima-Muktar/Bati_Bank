@@ -6,7 +6,6 @@ Banks traditionally build these models by analyzing past borrowers’ data and l
 # Project Structure
 Mandate a standardized project structure from the beginning.
 
-
 ## Credit Risk Analysis and Modeling
  # Credit Risk
  Credit risk is the possibility that a borrower will fail to repay a loan, causing a financial loss to the lender. It affects loan decisions, interest rates, and the overall stability and profitability of financial institutions.
