@@ -6,7 +6,7 @@ Banks traditionally build these models by analyzing past borrowers’ data and l
 ## 📁 Project Structure
 Mandate a standardized project structure from the beginning.
 ```text
-week3-practice/
+Bat_Bank/
 ├── data/
 │   ├── raw/
 │   └── processed/
@@ -14,17 +14,12 @@ week3-practice/
 │   ├── eda.ipynb
 │   └── modeling.ipynb
 ├── src/
-│   ├── data_cleaning.py
-│   ├── feature_engineering.py
-│   └── train_model.py
-├── reports/
-│   └── analysis_report.pdf
+│   ├── data_processing.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
-
-# Credit Risk Analysis and Modeling
+```
+ ## Credit Risk Analysis and Modeling
  ## Credit Risk
  Credit risk is the possibility that a borrower will fail to repay a loan, causing a financial loss to the lender. It affects loan decisions, interest rates, and the overall stability and profitability of financial institutions.
  ## Credit risk modeling 
