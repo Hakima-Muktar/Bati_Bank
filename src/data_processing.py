@@ -27,8 +27,12 @@ def load_data(file_path: str) -> pd.DataFrame:
         # This gives a clear and consistent error message for the user
         raise ValueError(f"Failed to load file '{file_path}': {e}")
 
-        
-def prepare_features(df, target="is_high_risk"):
-    X = df.drop(columns=[target])
-    y = df[target]
+def prepare_features(df: pd.DataFrame):
+   
+    if "is_high_risk" not in df.columns:
+        raise ValueError("Target column 'is_high_risk' not found")
+
+    X = df.drop(columns=["is_high_risk"])
+    y = df["is_high_risk"]
+
     return X, y
