@@ -26,3 +26,9 @@ def load_data(file_path: str) -> pd.DataFrame:
         # If any error occurs (e.g., file missing, corrupt), wrap it in a ValueError
         # This gives a clear and consistent error message for the user
         raise ValueError(f"Failed to load file '{file_path}': {e}")
+
+        
+def prepare_features(df, target="is_high_risk"):
+    X = df.drop(columns=[target])
+    y = df[target]
+    return X, y
