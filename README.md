@@ -28,7 +28,10 @@ Bati_Bank/
 │   └── processed/               # Cleaned and transformed data
 ├── notebooks/
 │   └── 1.0-eda.ipynb            # Exploratory data analysis
-├── src/
+├── src/   
+  ─ api
+   ──main.py
+   ──pydantic_model.py
 │   ├── __init__.py
 │   ├── data_processing.py       # EDA utilities
 │   └── feature_engineering.py   # Feature engineering logic
