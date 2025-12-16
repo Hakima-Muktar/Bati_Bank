@@ -44,8 +44,6 @@ Bati_Bank/
 │   │
 │   ├── __init__.py
 │   ├── data_processing.py        # Data loading and preprocessing utilities
-│   └── feature_engineering.py    # Feature engineering logic
-│
 ├── tests/
 │   └── test_data_processing.py   # Unit tests for data processing functions
 │
