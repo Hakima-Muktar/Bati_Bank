@@ -1,7 +1,6 @@
-version: "3.9"
-
 services:
   api:
+    image: bati_bank_api
     build: .
     ports:
       - "8000:8000"
