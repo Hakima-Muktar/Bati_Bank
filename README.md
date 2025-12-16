@@ -22,27 +22,41 @@ Criteria Logistic Regression (WoE) Gradient Boosting (GBM) Interpretability High
 Mandate a standardized project structure from the beginning.
 ```
 Bati_Bank/
-├── .github/workflows/ci.yml     # CI/CD Pipeline
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml                # GitHub Actions CI/CD pipeline
+│
 ├── data/
-│   ├── raw/                     # Original data (excluded via .gitignore)
-│   └── processed/               # Cleaned and transformed data
+│   ├── raw/                      # Original raw datasets (gitignored)
+│   └── processed/                # Cleaned and model-ready datasets
+│
 ├── notebooks/
-│   └── 1.0-eda.ipynb            # Exploratory data analysis
-├── src/   
-  ─ api
-   ──main.py
-   ──pydantic_model.py
+│   └── eda.ipynb             
+│   └── feature engineering.ipynb             
+│   └── model_ training.ipynb             
+│   └── proxy_target_engineering.ipynb             
+│   
+├── src/
+│   ├── api/
+│   │   ├── main.py               # FastAPI application entry point
+│   │   └── pydantic_models.py    # Request/response schemas
+│   │
 │   ├── __init__.py
-│   ├── data_processing.py       # EDA utilities
-│   └── feature_engineering.py   # Feature engineering logic
+│   ├── data_processing.py        # Data loading and preprocessing utilities
+│   └── feature_engineering.py    # Feature engineering logic
+│
 ├── tests/
-│   └── test_data_processing.py  # Unit tests
-├── requirements.txt             # Dependencies
-├── Dockerfile
-├── docker-compose.yml
-├── .gitignore
-└── README.md
+│   └── test_data_processing.py   # Unit tests for data processing functions
+│
+├── requirements.txt              # Python dependencies
+├── Dockerfile                    # Docker image configuration
+├── docker-compose.yml            # Container orchestration
+├── .gitignore                    # Files and folders excluded from Git
+├── README.md                     # Project documentation
+
 ```
+
 # ✅ Task 1 – Credit Scoring Business Understanding
 Basel II principles researched and applied Proxy risk logic outlined Trade-offs between model types discussed
 
