@@ -1,5 +1,6 @@
 # Credit Risk Probability Model for Alternative Data
 ## 🚀 Project Overview
+
 This project is developed for Bati Bank in collaboration with a leading eCommerce company to enable a Buy-Now-Pay-Later (BNPL) service. The core business objective is to build a robust credit scoring model that estimates the likelihood of customer default using alternative behavioral data from the eCommerce platform.
 
 Given the absence of traditional credit history, we leverage transactional patterns, such as Recency, Frequency, and Monetary (RFM) data, to engineer features and train a predictive model. This model will # ultimately assign a risk probability score, a credit score, and guide loan amount and term decisions.
