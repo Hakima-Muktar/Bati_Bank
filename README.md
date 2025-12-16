@@ -58,7 +58,7 @@ transaction_volume_per_channel
 
 Handled high-cardinality categorical features with frequency or target encoding.
 
-✅ Proxy Target Variable Since explicit default labels were missing:
+# ✅ Task -3  Proxy Target Variable Since explicit default labels were missing:
 
 Constructed a proxy target based on:
 
@@ -70,7 +70,7 @@ Validated proxy label distribution and balanced the dataset using undersampling.
 
 ✅ Ready to use engineered features and proxy variable for model training.
 
-🤖 Task 4 – Model Training, Evaluation, and Tracking Trained multiple supervised classifiers:
+# 🤖 Task 4 – Model Training, Evaluation, and Tracking Trained multiple supervised classifiers:
 
 Logistic Regression (baseline)
 
@@ -88,7 +88,7 @@ Hyperparameters and performance logged using MLflow
 
 yaml Copy Edit Model Name: FraudDetectionModel Stage: Staging ✅ Model saved both locally and in the MLflow Registry.
 
-🧪 Task 5 – Model Interpretability In line with Basel II interpretability requirements:
+# 🧪 Task 5 – Model Interpretability In line with Basel II interpretability requirements:
 
 Interpreted model predictions using SHAP
 
@@ -102,7 +102,7 @@ Per-customer risk explanations
 
 ✅ Interpretability analysis helps build stakeholder trust and regulatory compliance.
 
-🌐 Task 6 – Model Deployment and Continuous Integration ✅ FastAPI Deployment Developed REST API using FastAPI in src/api/main.py
+# 🌐 Task 6 – Model Deployment and Continuous Integration ✅ FastAPI Deployment Developed REST API using FastAPI in src/api/main.py
 
 Exposed /predict endpoint to return customer risk probability
 
