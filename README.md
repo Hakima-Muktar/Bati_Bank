@@ -102,7 +102,8 @@ Per-customer risk explanations
 
 ✅ Interpretability analysis helps build stakeholder trust and regulatory compliance.
 
-# 🌐 Task 6 – Model Deployment and Continuous Integration ✅ FastAPI Deployment Developed REST API using FastAPI in src/api/main.py
+# 🌐 Task 6 – Model Deployment and Continuous Integration 
+✅ FastAPI Deployment Developed REST API using FastAPI in src/api/main.py
 
 Exposed /predict endpoint to return customer risk probability
 
